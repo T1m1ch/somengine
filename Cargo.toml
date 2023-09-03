@@ -1,0 +1,12 @@
+[package]   
+name = "somengine"   
+version = "0.1.0"   
+edition = "2021" 
+
+[dependencies]  
+
+env_logger = "0.10.0"
+wgpu = "0.17.0"
+winit = "0.28.0"
+tokio = {version="1.32.0", features=["full"]}
+
